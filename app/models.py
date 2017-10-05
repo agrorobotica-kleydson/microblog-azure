@@ -91,6 +91,7 @@ class Post(db.Model):
     body = db.Column(db.String(140))
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), index=True)
+    language = db.Column(db.String(5))
     author = db.relationship('User', back_populates='posts')
 
     def __repr__(self):
