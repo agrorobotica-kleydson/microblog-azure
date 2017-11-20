@@ -1,5 +1,6 @@
 aiosmtpd==1.4.4.post2
 alembic==1.10.4
+async-timeout==4.0.2
 atpublic==3.1.1
 attrs==23.1.0
 Babel==2.12.1
@@ -30,7 +31,9 @@ packaging==23.1
 PyJWT==2.6.0
 python-dotenv==1.0.0
 pytz==2023.3
+redis==4.5.4
 requests==2.29.0
+rq==1.14.0
 six==1.16.0
 SQLAlchemy==2.0.10
 typing_extensions==4.5.0
